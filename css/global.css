@@ -48,10 +48,10 @@
   --light-green-color: #00ca39;
   --pink-color: #e44067;
   --text-dark-color: #414141;
-  --text-light-color: #a4a6b3;
+  --text-light-color: #dde2ff;
   --text-black-color: #000000;
   --card-hover-bg-color: #3751ff;
-  --dashbord-menu-hover-color: #9fa2b4;
+  --dashbord-menu-hover-color: rgba(159, 162, 180, 8%);
   --red-color: #f12b2c;
   --pale-green-color: #29cc97;
   --yellow-color: #fec400;
@@ -59,6 +59,8 @@
   /* FONTS */
   --main-font: "Lato", sans-serif;
   --dashbord-menu-link-font: "Mulish", sans-serif;
+  --dashboard-nav-border-bottom: #dfe0eb;
+  --dashbord-menu-text-color: #a4a6b3;
 }
 *::after,
 *::before,
@@ -105,9 +107,7 @@ h6 {
 }
 .container {
   width: 100%;
-  max-width: 1500px;
+  max-width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 3rem;
-  padding-left: 3rem;
 }

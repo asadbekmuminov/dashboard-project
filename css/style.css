@@ -1,0 +1,232 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+.sidebar {
+  background-color: var(--sidebar-bg-color);
+  color: var(--white-color);
+  width: 100%;
+  max-width: 255px;
+}
+.main {
+  background-color: var(--white-color);
+  width: 100%;
+}
+
+/* SITEBAR */
+
+.site-logo {
+  margin-top: 3.6rem;
+}
+.site-logo__img {
+  margin-top: 3.6rem;
+  margin-left: 2.3rem;
+}
+.sitenav {
+  border-bottom: 1px solid var(--dashboard-nav-border-bottom);
+  padding-bottom: 1.6rem;
+}
+.sitenav__list {
+  display: flex;
+  flex-direction: column;
+}
+/* .active {
+  border-left: 3px solid var(--text-light-color);
+  background-color: var(--dashbord-menu-hover-color);
+} */
+.sitenav__item:hover {
+  border-left: 3px solid var(--text-light-color);
+  background-color: var(--dashbord-menu-hover-color);
+}
+.sitenav__link {
+  display: flex;
+  padding: 1.8rem 2.4rem 1.8rem 2.9rem;
+}
+.sitenav__link_icon {
+  object-fit: contain;
+  margin-right: 2.4rem;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.sitenav__link_text {
+  font-family: var(--dashbord-menu-link-font);
+  color: var(--dashbord-menu-text-color);
+}
+.header__end {
+  padding-top: 50rem;
+  padding-bottom: 3.2rem;
+  padding-left: 4rem;
+  background-color: var(--sidebar-bg-color);
+}
+.end__list {
+  display: flex;
+  flex-direction: column;
+}
+.end__item {
+  display: flex;
+}
+
+.end__link {
+  display: flex;
+  margin-bottom: 2.3rem;
+  gap: 2rem;
+}
+
+.end__link_text {
+  font-family: var(--dashbord-menu-link-font);
+  color: var(--dashbord-menu-text-color);
+  transition: 0.3s;
+}
+.end__link_text:hover {
+  color: var(--red-color);
+}
+
+/* MAIN HEADER */
+
+.main__header {
+  padding: 3.1rem 3.6rem 0rem 2.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5.3rem;
+}
+.header__img_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+.header__img_text {
+  font-family: var(--dashbord-menu-link-font);
+  color: var(--main-text-color);
+  letter-spacing: 0.2px;
+}
+/* MAIN OVERVIEW START */
+.main__overview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3.7rem 0rem 2.8rem;
+  margin-bottom: 7rem;
+}
+.overview__title {
+  font-weight: 400;
+  font-size: 3.9rem;
+  line-height: 1.2;
+  color: var(--text-black-color);
+}
+.overview__wrapper_btn {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+.overvirw__link_btn {
+}
+.overview__img {
+  background-color: var(--pale-grey-color);
+  padding: 1.6rem 2.4rem;
+  border-radius: 5px;
+}
+.overview__add_btn {
+  font-weight: 700;
+  color: var(--white-color);
+  background-color: var(--green-color);
+  padding: 8px 1.9rem;
+  border-radius: 5px;
+}
+/* MAIN OVERVIEW END */
+
+/* MAIN HERO START */
+.main__hero {
+}
+.hero__header {
+  display: flex;
+  align-items: center;
+  padding: 0rem 8.582rem 0rem 4.7rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1082px;
+}
+.hero__own_wrapper {
+  width: 100%;
+  max-width: 200px;
+}
+.header__owner_text {
+  font-size: 1.6rem;
+  color: #878787;
+}
+.header__end_text {
+  font-size: 1.6rem;
+  color: #878787;
+  margin-right: 1.5rem;
+}
+.header__profits_text {
+  font-size: 1.6rem;
+  color: #878787;
+  margin-right: 3rem;
+}
+.header__losses_text {
+  font-size: 1.6rem;
+  color: #878787;
+  margin-right: 3rem;
+}
+.header__phone_text {
+  font-size: 1.6rem;
+  color: #878787;
+  margin-right: 1rem;
+}
+.hero__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.hero__box {
+  display: flex;
+  align-items: center;
+  padding: 0rem 3.7rem 0rem 2.7rem;
+  width: 100%;
+  max-width: 1120px;
+}
+.hero__box_bg {
+  background-color: var(--pale-grey-color);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1082px;
+  justify-content: space-between;
+}
+.hero__box_bgnot {
+  background-color: var(--white-color);
+}
+.hero__box_img-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  gap: 3rem;
+}
+.box__img {
+  margin: 1.6rem 0rem 1.6rem 2rem;
+}
+.box__text_name {
+  font-weight: 500;
+  color: var(--text-dark-color);
+}
+.box__text_date {
+  font-weight: 500;
+  color: var(--text-dark-color);
+}
+.box__text_profits {
+  font-weight: 500;
+  color: var(--light-green-color);
+}
+.box__text_losses {
+  font-weight: 500;
+  color: var(--pink-color);
+}
+.box__text_phone {
+  font-weight: 500;
+  color: var(--text-dark-color);
+  padding-right: 1.8rem;
+}
+
+/* MAIN HERO END */
